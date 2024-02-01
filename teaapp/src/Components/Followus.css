@@ -1,0 +1,26 @@
+.follow-us-section {
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    color: #183b56;
+    text-align: center;
+}
+#followus-section-socio{
+    margin: 30px;
+    align-items: center;
+    letter-spacing: 20px;
+}
+
+#logo-size{
+    font-size: 31px;
+}
+
+#logo-size:hover{
+    font-size: 33px;
+    color:black;
+}

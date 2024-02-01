@@ -1,0 +1,30 @@
+db.orders(
+[
+    {
+        "order_id":1,
+        "name":"Sai",
+        "email":"sai@gmail.com",
+        "address":"Himayatnagar,Hyderabad",
+        "phone":7765659876,
+        "menu_id":[ 2,3,4 ],
+        "name":["Assam Tea, Sencha, Peppermint Tea"],
+        "quantity": 2,
+        "cost":[50,70,40],
+        "total_price":320
+    },
+    {
+        "order_id":2,
+        "name":"Sandhya",
+        "email":"sanghya@gmail.com",
+        "address":"Banjarahills,Hyderabad",
+        "phone":8965659876,
+        "menu_id": 20,
+        "name":["Ginger Tea"],
+        "quantity": 5,
+        "cost":60,
+        "total_price":300
+    }
+    
+
+]
+)

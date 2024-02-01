@@ -1,0 +1,48 @@
+[
+    {
+        "menutype_id":1,
+        "menu_type":"Chai Varieties",
+        "url": "https://i.ibb.co/Vx6rJnX/Chai-Variety.jpg"
+    },
+    {
+        "menutype_id":2,
+        "menu_type":"Black Tea",
+        "url": "https://i.ibb.co/PC00qst/Black-Tea-Variety.jpg"
+    },
+    {
+        "menutype_id":3,
+        "menu_type":"Green Tea",
+        "url": "https://i.ibb.co/XWBPNmB/Green-Tea-Variety.jpg"
+    },
+    {
+        "menutype_id":4,
+        "menu_type":"Herbal and Infusions",
+        "url": "https://i.ibb.co/hcS0kKK/images-q-tbn-ANd9-Gc-Qz-ym-Tvlxd-QOUNd-Ct-KGGLnd-Hl-E-t-Kg254fw-usqp-CAU.jpg" 
+    },
+    {
+        "menutype_id":5,
+        "menu_type":"Iced Teas",
+        "url": "https://i.ibb.co/mB7r33n/Iced-Tea-Variety.jpg" 
+    },
+    {
+        "menutype_id":6,
+        "menu_type":"Coffee Beverages", 
+        "url": "https://i.ibb.co/7b7Lbwx/cappuccino.jpg"
+    },
+    {
+        "menutype_id":7,
+        "menu_type":"Milk Alternatives",
+        "url": "https://i.ibb.co/0hJFSdQ/Buffalo-Milk.jpg" 
+    },
+    {
+        "menutype_id":8,
+        "menu_type":"Specialty and Fusion Teas ",
+        "url" : "https://i.ibb.co/dLC0ZgG/images-q-tbn-ANd9-Gc-Sg-F3-KIQYj7-XITZ5-VNGEz-FXHP0-R2p-Qt-SJsqg-usqp-CAU.jpg"
+    },
+    {
+        "menutype_id":9,
+        "menu_type":"Snacks",
+        "url" : "https://i.ibb.co/4T2tKVb/uo4swh9xqwt61.jpg" 
+    }
+
+]

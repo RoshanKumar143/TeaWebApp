@@ -1,0 +1,40 @@
+[
+	{
+		"health_id":1,
+		"healthBenefit": "Weight Loss Tea",
+		"url":"https://i.ibb.co/h2s0M67/green-tea-weight-loss.jpg"
+	},
+	{
+		"health_id":2,
+		"healthBenefit": "Lower Blood Pressure",
+		"url":"https://i.ibb.co/tL4nx1j/Hibiscus-tea-1616325.jpg"
+	},
+	{
+		"health_id":3,
+		"healthBenefit": "Rich Antioxidants"
+	},
+	{
+		"health_id":4,
+		"healthBenefit": "Improve Eye Sight",
+		"url":"https://i.ibb.co/2y29nVB/images-q-tbn-ANd9-Gc-S-bo1-J7h-Jv44cui-I-4cl7-Gc-GRNw-GU1-CO9su-Kvt-Y38j-OWKz-OVsvn-Wxf8ms-Sdg0-Sz-O.jpg"
+	},
+	{
+		"health_id":5,
+		"healthBenefit": "Enhance Memory Booster",
+		"url":"https://i.ibb.co/sF67BfR/71r42-Ecb-GL-AC-UF1000-1000-QL80.jpg"
+	},
+	{
+		"health_id":6,
+		"healthBenefit": "Boost Immune System",
+		"url":"https://i.ibb.co/tQz6xYS/vlcsnap-2020-06-16-23h31m19s115.png"
+	},
+	{
+		"health_id":7,
+		"healthBenefit": "Digestion",
+		"url":"https://i.ibb.co/hyh1pdh/maxresdefault.jpg"
+	},
+	{
+		"health_id":8,
+		"healthBenefit": "Others"
+	}
+]

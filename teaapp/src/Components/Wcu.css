@@ -1,0 +1,67 @@
+/* why choose us - section */
+#wcu-section {
+    /* background-color: rgb(181, 177, 177); */
+  }
+  
+  .wcu-section-heading {
+    /* color: black; */
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  #arrow-btn{
+    position: fixed;  
+    bottom: 30px;
+	right:0;	
+    /*margin: 100px; */
+    /*right: 100px; */    /*left*/
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 40px; 
+    font-size: 40px;
+    z-index: 1;
+} 
+
+
+  .wcu-section-description {
+    font-family: "Roboto";
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 300;
+  }
+  
+  .wcu-card {
+    text-align: center;
+    /* background-color: white; */
+    border-style: solid;
+    border-width: 10px;
+    /* border-color: rgb(157, 197, 158); */
+    border-radius: 16px;
+  }
+  .wcu-card-image {
+    width: 87px;
+    height: 90px;
+  }
+  
+  .wcu-card-title {
+    /* color: #323f4b; */
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .wcu-card-description {
+    
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  

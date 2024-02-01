@@ -1,0 +1,292 @@
+[
+    {
+        "menu_id":1,
+        "item_name":"Masala Chai",
+        "menutype_id":1,
+        "description":"A spiced tea blend with ingredients like ginger, cardamom, cloves, and cinnamon.",
+        "menu_image":"https://i.ibb.co/Z2kLYzs/masala-Chai.jpg",
+        "menu_type":"Chai Varieties",
+        "menu_price":"20"
+    },
+    {
+        "menu_id":2,
+        "item_name":"Assam Tea",
+        "menutype_id":2,
+        "description":"A robust, full-bodied black tea from the Assam region in India.",
+        "menu_image":"https://i.ibb.co/N9NtKRN/AssamTea.jpg",
+        "menu_type":"Black Tea",
+        "menu_price":"50"
+    },
+    {
+        "menu_id":3,
+        "item_name":"Sencha",
+        "menutype_id":3,
+        "description":" A popular Japanese green tea with a mild and grassy flavor.",
+        "benefits":"Helpful in controlling blood sugar levels and fighting heart diseases along with  high levels of antioxidants that protect the cells and tissues of the body from free radical damage.",
+        "menu_image":"https://i.ibb.co/QCdCjLd/sencha-Green-Tea.jpg",
+        "menu_type":"Green Tea",
+        "menu_price":"70"
+    },
+    {
+        "menu_id":4,
+        "item_name":"Peppermint Tea",
+        "menutype_id":4,
+        "description":"Herbal tea made from peppermint leaves, known for its refreshing taste.",
+        "benefits":"Good for memory, Boost brainpower, Increases Energy, Reduces stress, High in antioxidants.",
+        "menu_image":"https://i.ibb.co/DCtXPJs/Peppermint-Tea.jpg",
+        "menu_type":"Herbal and Infusions", 
+        "menu_price":"40"
+    },
+    {
+        "menu_id":5,
+        "item_name":"Classic Iced Tea",
+        "menutype_id":5,
+        "description":"Black tea served over ice, often sweetened and optionally garnished with lemon.",
+        "menu_image":"https://i.ibb.co/XtGS7Pj/classic-Iced-Tea.jpg",
+        "menu_type":"Iced Teas",  
+        "menu_price":"90"
+    },
+    {
+        "menu_id":6,
+        "item_name":"Cappuccino",
+        "menutype_id":6,
+        "menu_image":"https://i.ibb.co/7b7Lbwx/cappuccino.jpg",
+        "menu_type":"Coffee Beverages",   
+        "menu_price":"120"
+    },
+
+
+
+    {
+        "menu_id":7,
+        "item_name":"Adrak Chai",
+        "menutype_id":1,
+        "description":"Ginger tea, often strong and invigorating.",
+        "menu_image":"https://i.ibb.co/6bcs8MX/Adrak-Chai.jpg",
+        "menu_type":"Chai Varieties",
+        "menu_price":"20"
+    },
+    {
+        "menu_id":8,
+        "item_name":"Darjeeling Tea",
+        "menutype_id":2,
+        "description":" A light and floral black tea, often considered the 'Champagne of Teas'.",
+        "menu_image":"https://i.ibb.co/k3FJJt5/Darjeeling-Tea.jpg",
+        "menu_type":"Black Tea",
+        "menu_price":"50"
+    },
+    {
+        "menu_id":9,
+        "item_name":"Dragon Well (Longjing)",
+        "menutype_id":3,
+        "description":" Chinese green tea known for its flat, sword-shaped leaves and a sweet, chestnut-like flavor.",
+        "benefits":"boost metabolism, help in burn fat which can aid in weight loss, lower cholesterol levels and blood pressure with presence of antioxidants in it.",
+        "menu_image":"https://i.ibb.co/cLLkJ5w/Dragon-Well-Longjing.jpg",
+        "menu_type":"Green Tea",
+        "menu_price":"70"
+    },
+    {
+        "menu_id":10,
+        "item_name":"Chamomile Tea",
+        "menutype_id":4,
+        "description":"An herbal tea made from dried chamomile flowers, often consumed for relaxation.",
+        "benefits":" Good for heart, Good for digestion, Good for sleep, Reduces anxiety, Boosts Immune System.",    
+        "menu_image":"https://i.ibb.co/FB9gnM6/Chamomile-Tea.jpg",
+        "menu_type":"Herbal and Infusions", 
+        "menu_price":"40"
+    },
+    {
+        "menu_id":11,
+        "item_name":"Lemon Iced Tea",
+        "menutype_id":5,
+        "description":"Iced tea infused with fresh lemon juice for a refreshing citrusy flavor.",
+        "menu_image":"https://i.ibb.co/jv9Nz6K/lemon-Iced-Tea.jpg",
+        "menu_type":"Iced Teas",  
+        "menu_price":"90"
+    },
+    {
+        "menu_id":12,
+        "item_name":"Cold Brew Coffee",
+        "menutype_id":6,
+        "menu_image":"https://i.ibb.co/KXjgLBt/cold-Brew-Coffee.jpg",
+        "menu_type":"Coffee Beverages",   
+        "menu_price":"130"
+    },
+
+
+
+    {
+        "menu_id":13,
+        "item_name":"Elaichi Chai",
+        "menutype_id":1,
+        "description":"Cardamom tea, known for its aromatic and slightly sweet flavor.",
+        "menu_image":"https://i.ibb.co/rQcT9rF/Elaichi-Chai.jpg",
+        "menu_type":"Chai Varieties",
+        "menu_price":"25"
+    },
+    {
+        "menu_id":14,
+        "item_name":"Earl Grey",
+        "menutype_id":2,
+        "description":"Black tea flavored with bergamot oil, creating a citrusy aroma.",
+        "menu_image":"https://i.ibb.co/tsYNNfx/Earl-Grey-Tea.jpg",
+        "menu_type":"Black Tea",
+        "menu_price":"100"
+    },
+    {
+        "menu_id":15,
+        "item_name":"Matcha",
+        "menutype_id":3,
+        "description":"Matcha tea is formed by grinding green tea leaves into a fine powder. Consuming matcha can be a healthier choice than other green teas brewed from tea leaves.",
+        "benefits":"Good detoxifying properties,with packed antioxidants can leave us feeling and looking healthy.",
+        "menu_image":"https://i.ibb.co/bXfgN90/matcha-Green-Tea.jpg",
+        "menu_type":"Green Tea",
+        "menu_price":"70"
+    },
+    {
+        "menu_id":16,
+        "item_name":"Hibiscus Tea",
+        "menutype_id":4,
+        "description":"A vibrant red tea made from dried hibiscus flowers, offering a tart and fruity flavor.",
+		"benefits":"Helps lower blood sugar levels, cholesterol, and blood pressure.",
+        "menu_image":"https://i.ibb.co/rtw2hgG/hibiscus-Tea.jpg",
+        "menu_type":"Herbal and Infusions", 
+        "menu_price":"40"
+    },
+    {
+        "menu_id":17,
+        "item_name":"Mint Iced Tea",
+        "menutype_id":5,
+        "description":"Iced tea infused with fresh mint leaves for a cool and invigorating taste.",
+        "benefits":"High in antioxidants, Good source of iron, High in vitamin C, Can help boost metabolism.",
+        "menu_image":"https://i.ibb.co/68jR0Rn/mint-Iced-Tea.jpg",
+        "menu_type":"Iced Teas",  
+        "menu_price":"150"
+    },
+    {
+        "menu_id":18,
+        "item_name":"Caramel coffee",
+        "menutype_id":6,
+        "menu_image":"https://i.ibb.co/VDg5c55/caramel-Coffee.jpg",
+        "menu_type":"Coffee Beverages",   
+        "menu_price":"120"
+    },
+
+
+
+    {
+        "menu_id":19,
+        "item_name":"Kadak Chai",
+        "menutype_id":1,
+        "description":"Strong and robust tea, brewed with a higher tea-to-water ratio.",
+        "menu_image":"https://i.ibb.co/1qgSXGg/kadak-Chai.jpg",
+        "menu_type":"Chai Varieties",
+        "menu_price":"25"
+    },
+    {
+        "menu_id":20,
+        "item_name":"Ginger Tea",
+        "menutype_id":2,
+        "description":"May help manage blood pressure and support heart health.",
+        "menu_image":"https://i.ibb.co/0YQxNv2/Ginger-Tea.jpg",
+        "menu_type":"Black Tea",
+        "menu_price":"60"
+    },
+    {
+        "menu_id":21,
+        "item_name":"Honey Lemon Green Tea",
+        "menutype_id":3,
+        "description":" Green tea in combination with soothing honey and tangy lemon is a perfect treat for green tea lovers. This can definitely be your companion to combat several health ailments.",
+        "benefits":"Helps SupportBone Health, Lowers Cholesterol, Support weight loss.",
+        "menu_image":"https://i.ibb.co/4PD1F9D/honey-Lemon-Green-Tea.jpg",
+        "menu_type":"Green Tea",
+        "menu_price":"50"
+    },
+    {
+        "menu_id":22,
+        "item_name":"Ginger herbal Tea",
+        "menutype_id":4,
+        "description":"Ginger is a popular spice that can be added to flavored tea blends for a slightly sweet, slightly spicy flavor. Ginger root originated in Southeast Asia, and has been used in herbal medicine for centuries to treat a wide variety of ailments, from nausea to indigestion to the common cold",
+        "benefits":"Boosts your immune system, Aids diigestion, Reduces inflammation, Good for teeth.",
+        "menu_image":"https://i.ibb.co/fXkSvTt/ginger-Herbal-Tea.jpg",
+        "menu_type":"Herbal and Infusions", 
+        "menu_price":"60"
+    },
+    {
+        "menu_id":23,
+        "item_name":"Rose Iced Tea",
+        "menutype_id":5,
+        "description":" Iced tea infused with rose petals, offering a delicate and floral taste.",
+        "menu_image":"https://i.ibb.co/1sQZdH6/rose-Iced-Tea.jpg",
+        "menu_type":"Iced Teas",  
+        "menu_price":"110"
+    },
+    {
+        "menu_id":24,
+        "item_name":"Hot Chocolate",
+        "menutype_id":6,
+        "menu_image":"https://i.ibb.co/kJsGwp3/hot-Chocolate-Coffee.jpg",
+        "menu_type":"Coffee Beverages",   
+        "menu_price":"180"
+    },
+
+
+
+
+    {
+        "menu_id":25,
+        "item_name":"Kangra Chai",
+        "menutype_id":1,
+        "description":"The tea capital of North India is Kangra. Every tea lover's paradise is found in Palampur's verdant grounds.",
+        "menu_image":"https://i.ibb.co/JKsc8ZP/Kangra-Chai.jpg",
+        "menu_type":"Chai Varieties",
+        "menu_price":"100"
+    },
+    {
+        "menu_id":26,
+        "item_name":"Lemon Masala Tea",
+        "menutype_id":2,
+        "description":"helps boost immunity, aid digestion, prevent cancer, increase energy, reduce inflammation, and contains plenty of detoxifying antioxidants.",
+        "menu_image":"https://i.ibb.co/8YRRS0f/Lemon-Masala-Tea.jpg",
+        "menu_type":"Black Tea",
+        "menu_price":"50"
+    },
+    {
+        "menu_id":27,
+        "item_name":"Tulsi Green Tea",
+        "menutype_id":3,
+        "description":"Holy basil, commonly known as Tulsi when infused with your favorite green tea is a delightful blend of flavor & health. Tulsi green tea has been linked to strengthen immunity, boost stamina and cut down stress.",
+        "benefits":"Improve Eye sight, May Enhance Memory, Lower Stroke Risk, Reduce blood pressure.",
+        "menu_image":"https://i.ibb.co/CMx6rKs/tulsi-Green-Tea.jpg",
+        "menu_type":"Green Tea",
+        "menu_price":"40"
+    },
+    {
+        "menu_id":28,
+        "item_name":"Lemongrass herbal Tea",
+        "menutype_id":4,
+        "description":"Lemongrass is a popular herbal tea ingredient, and is used to impart a citrusy, zesty flavor to tea blends. Unlike what the name might imply, lemongrass isn’t actually related to citrus plants like lemons and oranges. Instead, it’s a tropical grass plant native to Sri Lanka and South India. While sometimes enjoyed on its own, lemongrass is more commonly added to tea blends in addition to other ingredients like peppermint, ginger, and true tea from the camellia sinensis plant.",
+        "benefits":"Good for teeth, Reduces Inflammation, Reduces Bloating, Good for heart & digestion, High in antioxidants, Antimicrobial properties.",
+        "menu_image":"https://i.ibb.co/j68nHSJ/Lemongrassherbal-Tea.jpg",
+        "menu_type":"Herbal and Infusions", 
+        "menu_price":"100"
+    },
+    {
+        "menu_id":29,
+        "item_name":"Lychee Iced Tea",
+        "menutype_id":5,
+        "description":"Iced tea with the addition of lychee flavor, creating a sweet and fragrant beverage.",
+        "menu_image":"https://i.ibb.co/1ZTvgRd/lychee-Iced-Tea.jpg",
+        "menu_type":"Iced Teas",  
+        "menu_price":"220"
+    },
+    {
+        "menu_id":30,
+        "item_name":"Mocha",
+        "menutype_id":6,
+        "menu_image":"https://i.ibb.co/T2vN7Rd/mocha.jpg",
+        "menu_type":"Coffee Beverages",   
+        "menu_price":"120"
+    }
+
+]

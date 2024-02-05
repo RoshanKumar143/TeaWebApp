@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react'
 import './menu_card.css'
-import Header from '../../Header';
+import ComponentHeader from '../../ComponentsHeader';
 import MenuCardDisplay from './menu-cardDisplay';
 
 import axios from 'axios';
@@ -33,7 +33,7 @@ export default function Menu_Card(){
 
     return(
         <>
-          <Header/>
+          <ComponentHeader/>
             <div className="outerContainer">
                 {/* <h1>{menuItems.menu_type}</h1> */}
                

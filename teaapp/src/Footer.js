@@ -2,7 +2,7 @@
 
 export default function Footer(){
     return(
-        <div class="footer-section pt-5 pb-5" id="footer-section">
+        <div class="footer-section pt-2 pb-2" id="footer-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">

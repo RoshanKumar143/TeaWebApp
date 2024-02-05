@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import { useParams, useNavigate } from 'react-router-dom';
 
-import Header from '../../Header';
+import ComponentHeader from '../../ComponentsHeader';
 
 const url = process.env.REACT_APP_LOGIN_API_URL;
 
@@ -50,8 +50,8 @@ const Register = () => {
 
     return(
         <>
-          <Header/>
-            <div className='container'>
+          <ComponentHeader/>
+            <div style={{margin:"100px"}} className='container'>
                 <hr/>
                 <div className="panel panel-info">
                     <div className="panel-heading">
@@ -81,7 +81,7 @@ const Register = () => {
                             </div>
                         </div>
 
-                        <div className="btn btn-success" onClick={checkout}>Register</div>
+                        <div className="btn btn-success mt-3" onClick={checkout}>Register</div>
 
                     </div>
                 </div>

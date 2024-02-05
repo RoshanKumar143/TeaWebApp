@@ -12,16 +12,16 @@
 .carousel{
     padding: 5rem;
     /* background-color: rgb(162, 140, 98); */
-    border: 1px solid lightskyblue;
+    /* border: 1px solid lightskyblue; */
     color: #fff;
     height: 70vh;
     width: 90vw;
     margin-left: 5%;
     /* border-radius: 50%; */
-    box-shadow: 10px 10px 1px black;
+    /* box-shadow: 10px 10px 1px black; */
 
-    background-color: black;
-    margin-bottom: 90px;
+    /* background-color: black; */
+    /* margin-bottom: 90px; */
 
 }
 .box{
@@ -45,6 +45,12 @@
     right: -25px;
     background-color: green;
     border-radius: 50%;
+}
+
+.slick-prev::before
+{
+  content: '←';
+  color: red;
 }
 
 .img{

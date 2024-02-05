@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Header from '../../Header';
+import ComponentHeader from '../../ComponentsHeader';
 
 const url = process.env.REACT_APP_LOGIN_API_URL;
 
@@ -58,8 +58,8 @@ const Login = () => {
 
 return(
     <>
-      <Header/>
-        <div className='container'>
+      <ComponentHeader/>
+        <div style={{margin:"160px"}} className='container'>
             <hr/>
             <div className="panel panel-danger">
                 <div className="panel-heading">
@@ -83,7 +83,7 @@ return(
                         </div>
 
                     </div>
-                    <div className="btn btn-warning" onClick={checkout}>Login</div>
+                    <div className="btn btn-warning mt-3" onClick={checkout}>Login</div>
                 </div>
             </div>
         </div>  

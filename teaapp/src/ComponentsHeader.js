@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const url = process.env.REACT_APP_LOGIN_API_URL;
 
-export default function Header(){
+export default function ComponentHeader(){
     console.log("Header Section")
 
      function changeMode(){
@@ -62,18 +62,12 @@ export default function Header(){
         }else{
             return(
                   <>
-                      {/* <Link to="/register" className='btn btn-primary'>
+                      <Link to="/register" className='btn btn-primary'>
                           <span className="glyphicon glyphicon-user"></span> SignUp
                       </Link> &nbsp;
                       <Link to="/login" className='btn btn-success'>
                           <span className="glyphicon glyphicon-log-in"></span> LogIn
-                      </Link> */}
-                        <Link to="/register" >
-                            <button type="button" className="credentials me-1">SignUp</button>
-                        </Link> &nbsp;
-                        <Link to="/login">
-                        <button type="button" className="credentials me-1">LogIn</button>
-                        </Link>
+                      </Link>
                   </>
             )  
           }
@@ -96,18 +90,12 @@ export default function Header(){
                     </button>
                     
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        <div className="navbar-nav ms-auto pe-5" >
-                            {/* <Link to='/wcu-section'  className="nav-link"  id="nav-item">Why Choose Us?</Link> */}
-                            <a className="nav-link" href="#wcu-section" id="nav-item">Why Choose Us?</a>
-                            <a className="nav-link" href="#explore-menu-section" id="nav-item">Explore Menu</a>
-                            <a className="nav-link" href="#paymentsection" id="nav-item">Delivery & Payment</a>
-                            <a className="nav-link" href="#followus" id="nav-item">Follow Us</a>
-                            {/* <a className="nav-link" href="#geo-location" id="nav-item"><i class='bx bxs-location-plus bx-tada' style={{color:"#977c83",fontSize: "35px"}}  ></i></a> */}
+                        <div className="navbar-nav ms-auto pe-5 pb-3" >
                             <a onClick={changeMode}>
-                                <img className='ps-1' style={{height:'30px',width:'50px',paddingBottom:'7px',marginRight:'-30px',marginLeft:'5px'}} src=" https://cdn-icons-png.flaticon.com/512/5115/5115625.png" id="mode-img" alt="" /> 
+                                <img src=" https://cdn-icons-png.flaticon.com/512/5115/5115625.png" id="mode-img" alt="" /> 
                             </a>
                         </div>
-                        {/* pb-2 ps-2 */}
+
                         <div id="social" >
                              {/* ConditionalRendering */}
                             {conditionalHeader()}

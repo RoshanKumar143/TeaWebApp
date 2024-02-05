@@ -23,32 +23,36 @@ export default function CostFilter(props){
 
         axios.get(costUrl)
             .then((res) => { props.restPerCost(res.data) })
-            console.log("<<<Filter Url>>>",`${baseUrl}/menu/filters?lcost=${lcost}&hcost=${hcost}`)
-
     }
 
 
     return(
         <>
-            <center><p id="Main-header">Cost Filter</p></center>
+            <p id="Main-header">Filter</p>
             <hr />
+            <p id='header'>By Cost :</p>
 
-            <div class="radio-container" onChange={handleFilter}>
-                <input type="radio" id="all" name="radio" value="all"/>
-                <label for="all">All</label><br/>
-            
-                <input type="radio" id="10-21" name="radio" value="10-21"/>
-                <label for="0-20">0-21</label><br/>
-            
-                <input type="radio" id="20-51" name="radio" value="20-51"/>
-                <label for="21-50">20-51</label><br/>
-
-                <input type="radio" id="50-151" name="radio" value="50-151"/>
-                <label for="51-149">50-151</label><br/>
-
-                
-                <input type="radio" id="151-250" name="radio" value="151-250"/>
-                <label for="150-300">151-250</label><br/>
+            <div class="radio-container1" onChange={handleFilter}>
+                <div className='radio-input'>
+                    <input type="radio" id="all" name="radio" value="all"/>
+                    <label for="all">All</label><br/>
+                </div>
+                <div className='radio-input'>
+                    <input type="radio" id="10-21" name="radio" value="10-21"/>
+                    <label for="0-20">0-21</label><br/>
+                </div>
+                <div className='radio-input'>
+                    <input type="radio" id="20-51" name="radio" value="20-51"/>
+                    <label for="21-50">20-51</label><br/>
+                </div>
+                <div className='radio-input'>
+                    <input type="radio" id="50-151" name="radio" value="50-151"/>
+                    <label for="51-149">50-151</label><br/>
+                </div>
+                <div className='radio-input'>
+                    <input type="radio" id="151-250" name="radio" value="151-250"/>
+                    <label for="150-300">151-250</label><br/>
+                </div>
                 
             </div>
 

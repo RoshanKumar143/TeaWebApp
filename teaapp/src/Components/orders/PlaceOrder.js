@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
-import Header from "../../Header";
+import ComponentHeader from "../../ComponentsHeader";
 import './PlaceOrder.css'
 
 
@@ -52,7 +52,7 @@ export default function PlaceOrder(){
 
     return(
         <>
-          <Header/>
+          <ComponentHeader/>
             <div className="form d-flex justify-content-center">
                 <div className="form-left">
                     <div className="col-12 col-md-5 order-1 order-md-2">

@@ -15,7 +15,7 @@ export default function Wcu(){
                         <h1 className="wcu-section-heading">Why Choose Us?</h1>
                         <p className="wcu-section-description">
                             {/* We Specially Import coffee-beans from Araku valley(Andhra Pradesh). */}
-                            Tea is the magic key to the vault where my brain is kept
+                            Tea is the magic key to the vault where the brain is kept
                         </p> 
                     </div>
 

@@ -53,5 +53,6 @@ h3{
     font-size: 15px;
 }
 .button{
-    float: left;
+    float: right;
+    margin-left: 6px;
 }

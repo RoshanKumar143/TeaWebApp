@@ -4,11 +4,15 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 import CostFilter from '../Filters/costFilter';
-import HealthBenefitFilter from '../Filters/healthFilter';
+import HealthBenefitFilter from '../Filters/healthFilter'
+
+import ComponentHeader from '../../ComponentsHeader';
+
+
+const baseUrl = process.env.REACT_APP_API_URL
+
 
 export default function ViewAllDisplay(){
-
-    const baseUrl = process.env.REACT_APP_API_URL
 
     const [allItems, setAllItems] = useState([]);
     
@@ -39,9 +43,10 @@ export default function ViewAllDisplay(){
         //     <p>This is ViewAllDisplay WebPage</p>
         // </div>
         <>
+            <ComponentHeader/>
             <div class="outContainer">
        
-                <div class="menu-items">
+                <div class="menu-items mt-5">
                     <div class="imgMainCont">
                     {
                         allItems.map((item) => {
@@ -61,8 +66,8 @@ export default function ViewAllDisplay(){
                                         <Link to={`/details?menuId=${item.menu_id}`}>
                                             <p className="item-title"><span>{item.item_name}</span> / Rs. {item.cost}</p>
                                         </Link>
-                                            <p style={{color:'green', fontWeight:400, fontSize: '19px'}}>{item.description}</p>
-                                            {/* <p style={{color:'green', fontWeight:400}}><span style={{color:'red',fontWeight:700}}>Benefits : </span>{item.benefits}</p> */}
+                                            {/* <p style={{color:'green', fontWeight:400, fontSize: '19px'}}>{item.description}</p> */}
+                                            <p style={{color:'green', fontWeight:400}}><span style={{color:'red',fontWeight:700}}></span>{item.benefits}</p>
                                             {/* <button className="btn">Add To Cart</button> */}
                                         </div>
                                         <div className="text-box">
@@ -87,11 +92,12 @@ export default function ViewAllDisplay(){
                     </div>
                 </div>
 
-                <div class="filter-box">
+                <div class="filter-box mt-5 ">
                     <div class="filter-container">
-                        <CostFilter
-                        restPerCost = {(data) => {setDataPerFilter(data)}} />
-                        <HealthBenefitFilter/>
+                        <CostFilter restPerCost = {(data) => {setDataPerFilter(data)}} />
+                        
+                        <HealthBenefitFilter restPerHealthId = {(data) => {setDataPerFilter(data)}}  />
+                    
                     </div>    
                 </div>
 

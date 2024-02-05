@@ -1,14 +1,53 @@
-.radio-container {
-    display: block;
+#Main-header{
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 55px;
+  text-shadow: 0 1px 20px rgb(255, 0, 251);
+}
+
+#header{
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 600;
+  display: flex;
+  justify-content: left;
+  padding-left: 10px;
+  position: relative;
+  padding-top: 5px;
+}
+
+
+.radio-container1 {
     line-height: 2;
     font-size: 19px;
     font-weight: 400;
+    display: flex;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 220px;
   }
 
-#Main-header{
-    font-size: 26px;
-    font-weight: 500;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
-  }
 
+.radio-container1 .radio-input {
+  font-size: 17px;
+  color: #873600;
+  font-weight: 500;
+}
+
+
+/* cost-FIlter */
+
+.healthFilter{
+  position: absolute;
+  top: 430px;
+}
+.radio-container2 {
+  line-height: 2;
+  font-size: 19px;
+  color: #873600;
+  font-weight: 500;
+  position: relative;
+  left: 10px;
+}

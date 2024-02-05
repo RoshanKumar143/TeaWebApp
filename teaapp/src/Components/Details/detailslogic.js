@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import './details.css'
-import Header from "../../Header";
+import ComponentHeader from "../../ComponentsHeader";
 
 import { useSearchParams, Link, useNavigate} from "react-router-dom";
 import axios from "axios";
@@ -45,7 +45,7 @@ export default function Details(){
     const renderDetails = () => {
         return(
             <>
-              <Header/>
+              <ComponentHeader/>
                 <div className='tileImage'>
                     <div className='imageClass'>
                         <img src={teaDetails.menu_image} alt={teaDetails.item_name}/>
@@ -61,14 +61,22 @@ export default function Details(){
                     </div>
                     <hr/>
                     <div className="col-md-12 buttons">
-                        <Link to={`/Listing_Menu/`} className="btn btn-success" >
-                        {/* <Link to={`/listing/${teaId}`} className="btn btn-success" > */}
+
+                        {/* <Link to={`/Listing_Menu/`} className="btn btn-success" >
                                 Back
                         </Link> &nbsp;&nbsp;
                         <button type="button" class="btn btn-primary button" onClick={proceed} >
                             Proceed
+                        </button> */}
+                        
+                        <button type="button" class="btn btn-primary button" onClick={proceed} >
+                            Proceed
                         </button>
 
+                        <Link to={`/Listing_Menu/`} className="btn btn-success" >
+                                Back
+                        </Link>
+                        
                     </div>
                 </div>
             </>

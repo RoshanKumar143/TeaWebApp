@@ -60,6 +60,39 @@ a > img{
 
 
 
+
+#social{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/* .credentials{
+  background-color: rgb(135, 182, 198);
+  padding: 2px 10px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.credentials:hover{
+  color: rgb(135, 182, 198);
+  background-color: #FFFFFF;
+} */
+.credentials{
+  background-color: #D0D3D4 ;
+  padding: 2px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.credentials:hover{
+  color: #FFFFFF;
+  background-color: black;
+}
+
+
+
+
 /* footer-section */
 .footer-section {
   background-color: rgb(220, 198, 198);
@@ -71,4 +104,10 @@ a > img{
   font-family: "Roboto";
   font-size: 19px;
 }
+
+
+
+
+
+
 

@@ -1,4 +1,5 @@
 import './Banner.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function Banner(){
     console.log("Banner Section")
@@ -11,6 +12,8 @@ export default function Banner(){
     function closeCoupon(){
         document.getElementById('coupon').style.visibility = 'hidden';
     }
+
+    let navigate = useNavigate()
 
     return(
         
@@ -37,8 +40,8 @@ export default function Banner(){
             </div> 
 
             <div className="banner-content">
-                <h1 className="banner-heading mb-3">TEA <span style={{ color: "crimson"}}>AND </span>FRIENDS <br/>MAKE PERFECT BLEND</h1>
-                <button className="order-button" title="Click">Order Now</button>   
+                <h1 className="banner-heading mb-3">TEA <span style={{ color: "crimson",textShadow:"2px 2px 2px #FFFFFF"}}>AND </span>FRIENDS <br/>MAKE PERFECT BLEND</h1>
+                  <button className="order-button"  onClick={ () => navigate("/Listing_Menu") }  title="Click">Order Now</button>      
             </div> 
         </div> 
     )
